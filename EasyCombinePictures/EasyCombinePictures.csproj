@@ -4,10 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright © Bisitsoft 2021</Copyright>
+    <Copyright>Copyright © Bisitsoft 2022</Copyright>
     <Description>Our official website: https://www.ourorangenet.com .</Description>
     <RepositoryUrl>https://github.com/Orange23333/EasyCombinePictures</RepositoryUrl>
     <AssemblyName>EasyCombinePictures</AssemblyName>
+    <Company>Bisitsoft</Company>
+    <Authors>Orange233</Authors>
   </PropertyGroup>
 
 </Project>
