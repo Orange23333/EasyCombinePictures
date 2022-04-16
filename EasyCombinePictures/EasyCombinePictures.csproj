@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright © Bisitsoft 2021</Copyright>
+    <Description>Our official website: https://www.ourorangenet.com .</Description>
+    <RepositoryUrl>https://github.com/Orange23333/EasyCombinePictures</RepositoryUrl>
+    <AssemblyName>EasyCombinePictures</AssemblyName>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCombinePictures", "EasyCombinePictures\EasyCombinePictures.csproj", "{ADF68B3D-AA60-4B96-926C-1874A94F6F6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B04D1910-0491-46FD-AA41-791260CA6D8E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADF68B3D-AA60-4B96-926C-1874A94F6F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF68B3D-AA60-4B96-926C-1874A94F6F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF68B3D-AA60-4B96-926C-1874A94F6F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF68B3D-AA60-4B96-926C-1874A94F6F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A7E1309-2456-4638-8041-A33C559C78B7}
+	EndGlobalSection
+EndGlobal
