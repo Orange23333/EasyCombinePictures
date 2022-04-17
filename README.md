@@ -8,7 +8,7 @@ A software which easy to combine your pictures.
 
 `picture_config_path`：图片配置（工程）文件。
 
-`work_id`：工作号。是该进程的不重复。标识符
+`work_id`：工作号。是该进程的不重复标识符。程序的输出图片会以`work_id`开头，以`.bmp`为结尾的图片。
 
 ## 配置文件
 
@@ -42,6 +42,12 @@ pic_arrangement: 'r' #表示排成一竖列。
 pic_arrangement: 'r3' #表示排成三竖列，注意数字必须是十进制数字，只支持数字。
 ```
 -->
+
+#### 设置回调文件
+
+```
+set_callback_file: true #表示程序会在运行结束前放置一个以`wotk_id`开头，`.out`的文件，其中第一行是返回值，`0`表示成功，如果不是的话，下一行及之后的东西是报错信息。这个文件也可能不会产生，如未能成功读取图片配置文件的情况下。
+```
 
 ### 图片对象集
 
