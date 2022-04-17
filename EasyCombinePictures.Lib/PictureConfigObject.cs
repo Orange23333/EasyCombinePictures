@@ -14,7 +14,7 @@ namespace EasyCombinePictures
 		[DefaultValue(null)]
 		public string pic_arrangement { get; set; }
 
-		[DefaultValue(null)]
+		[DefaultValue("false")]
 		public string set_callback_file { get; set; }
 
 		[YamlIgnore]
