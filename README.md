@@ -43,8 +43,22 @@ pic_arrangement: 'l' #表示排成一横行。
 pic_arrangement: 'r' #表示排成一竖列。
 ```
 
+<!-- 暂不支持
 ```
-pic_arrangement: 'r3' #表示
+pic_arrangement: 'r3' #表示排成三竖列，注意数字必须是十进制数字，只支持数字。
 ```
+-->
 
-### 图片对象
+### 图片对象集
+
+键名为`pics`。
+
+值的格式：
+```
+pics:
+ -
+  path: 'dir/picture1.ext'
+  text: 'A text.' #可以不写或设置成为text。
+ -
+  path: 'dir/picture2.ext'
+```
