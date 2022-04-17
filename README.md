@@ -27,7 +27,7 @@ pics:
 
 #### 排列格式
 
-键名为`pic_arrangement`。
+键名为`pic_arrangement`，默认值为`'r'`。
 
 ```
 pic_arrangement: 'l' #表示排成一横行。
@@ -44,6 +44,8 @@ pic_arrangement: 'r3' #表示排成三竖列，注意数字必须是十进制数
 -->
 
 #### 设置回调文件
+
+键名为`set_callback_file`，默认值为`false`。
 
 ```
 set_callback_file: true #表示程序会在运行结束前放置一个以`wotk_id`开头，`.out`的文件，其中第一行是返回值，`0`表示成功，如果不是的话，下一行及之后的东西是报错信息。这个文件也可能不会产生，如未能成功读取图片配置文件的情况下。
