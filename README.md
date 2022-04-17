@@ -4,17 +4,11 @@ A software which easy to combine your pictures.
 
 # 命令行接口 CLI
 
-`ezcmbpic <arguments>`
+`EasyCombinePictures <picture_config_path> <work_id>`
 
-## 参数
+`picture_config_path`：图片配置（工程）文件。
 
-### config
-
-打开配置文件
-
-`--picture-config <path>`或`--pc <path>`
-
-`path`：图片配置文件路径。
+`work_id`：工作号。是该进程的不重复。标识符
 
 ## 配置文件
 
